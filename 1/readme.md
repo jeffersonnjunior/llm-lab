@@ -1,0 +1,3 @@
+- **O Problema:** A equipe de atendimento precisa classificar a urgência e o sentimento de milhares de e-mails de clientes diariamente.
+- **O Desafio:** Construir um script em Python que consuma a API. Você deve enviar um texto não estruturado simulando uma reclamação e forçar o LLM a retornar exclusivamente um JSON válido contendo: `{"sentimento": "positivo/negativo", "urgencia": 1-5, "resumo_curto": "..."}`.
+- **A Regra:** Se a IA responder com qualquer texto fora do JSON (como "Aqui está o seu JSON:"), o teste falha. Você precisa zerar os **Samplers** (ex: *Temperature* = 0) para garantir a saída mais determinística possível.
