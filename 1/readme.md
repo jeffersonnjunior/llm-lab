@@ -16,3 +16,7 @@ O script deve:
   "urgencia": 1-5,
   "resumo_curto": "..."
 }
+```
+
+### Artigos
+https://jalammar.github.io/illustrated-transformer/
