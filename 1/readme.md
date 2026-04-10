@@ -19,4 +19,3 @@ O script deve:
 ```
 
 ### Artigos
-https://jalammar.github.io/illustrated-transformer/
