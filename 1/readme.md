@@ -17,5 +17,3 @@ O script deve:
   "resumo_curto": "..."
 }
 ```
-
-### Artigos
